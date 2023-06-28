@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicion absoluta</title>
+    <style>
+        div.relative{
+            position:relative;
+            width: 400px;
+            height: 200px;
+            border: 3px solid #73ad21;
+        }
+        div.absolute{
+            position:absolute;
+            top: 80px;
+            right: 0;
+            width: 200px;
+            height: 100px;
+            border: 3px solid #73ad21;
+        }
+    </style>
+</head>
+<body>
+    <h2>position:absolute;</h2>
+
+    <p>Un elemento con posicion:absoluta; se coloca en relacion con el antepasado posicionado mas cercano(en lugar de posicionarse en relacion con la ventana grafica,como fijo):</p>
+
+    <div class="relative">
+        Este elemento div tiene position:relative;
+
+    </div>
+    <div class="absolute">Este elemento div tiene posicion:absolute;</div>
+    
+</body>
+</html>
